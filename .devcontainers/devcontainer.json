@@ -31,8 +31,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "pip3 install flask",
-	"postStartCommand": "pip3 install flask"
+	"postCreateCommand": "echo 'Installing Flask...'; && pip install flask"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
